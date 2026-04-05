@@ -49,6 +49,20 @@ Starter accounts:
 | `ops` | `ops123` | Operations Manager |
 | `client` | `client123` | Customer Success |
 
+## Deploy to Render
+
+This project is configured for **Render** using `render.yaml`.
+
+1. Push the repo to GitHub.
+2. Open the one-click deploy URL:
+   ```text
+   https://render.com/deploy?repo=https://github.com/jems0906/AI-Data-Labeling-Quality-Control-Platform
+   ```
+3. Sign in to Render and confirm the new web service.
+4. Render will install `requirements.txt` and start the app automatically.
+
+> Note: the local auth store in `data/` is recreated on startup, so starter demo accounts remain available after redeploys.
+
 ## Example CLI run
 
 You can also run the pipeline headlessly:
